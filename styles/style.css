@@ -1,0 +1,116 @@
+body {
+    margin: 0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ------- MENU ------- */
+
+.banner {
+    width: 100%;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.banner h1 {
+    /* name */
+    font-size: 36px;
+}
+
+.picture-wrap {
+    /* picture container  */
+    position: absolute;
+    top: 85px;
+    border: 5px solid white
+}
+
+.picture {
+    width: 120px;
+}
+
+
+/* ------- content ------- */
+
+.content {
+    align-items: center;
+    margin-top: 60px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.content section {
+    padding: 12px
+}
+
+.content section::after {
+    margin-top: 10px;
+    background-color: #e9ecef;
+    bottom: 0px;
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    padding: 0px;
+}
+
+.about {
+    line-height: 30px;
+}
+
+dl {
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0
+}
+
+dt {
+    float: left;
+    width: 25%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+dd {
+    float: left;
+    width: 75%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+dd a {
+    color: inherit;
+    text-decoration: none;
+}
+
+dd span {
+    padding: 3px 5px 2px 5px;
+    border-radius: 5px;
+    background-color: rgb(180, 180, 180);
+    transition: 0.1s;
+}
+
+dd span:hover {
+    opacity: 0.75
+}
+
+
+/* ------- footer ------- */
+
+.footer {
+    color: rgb(136, 136, 136);
+    font-size: 12px;
+}
